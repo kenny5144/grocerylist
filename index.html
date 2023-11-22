@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sytle.css">
+</head>
+<body>
+    <div id="groceryList">
+       
+    </div>
+    <div id="totals">
+        <p  >Total Cost: <span id="totalCost"></span></ p>
+        <p  > Total Quantity: <span id="totalQuantity"></span></ p>
+    </div>
+    <button onclick="addItemPrompt()">Add New items</button>
+    <button onclick="isolateCategory('Fruits')"> Show Fruits </button>
+    <button onclick="isolateCategory('Vegetables')"> Show Vegetables </button>
+    <button onclick="isolateCategory('Dairy')"> Show Dairy </button>
+    <button onclick="showAllCategories()"> Show All </button>
+    <button onclick="orderItemsByCost()"> Order by Cost  </button>
+    <script src="index.js"></script>
+</body>
+</html>
